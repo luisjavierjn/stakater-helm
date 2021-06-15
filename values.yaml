@@ -80,3 +80,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+stakater-chart:
+  env:
+    NAME: "lastname"
