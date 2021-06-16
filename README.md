@@ -8,4 +8,7 @@ helm lint .\stakater-helm
 helm template .\stakater-helm
 helm install --generate-name .\stakater-helm --set stakater-chart.env.NAME="Stakater"
 ```
+
+The commands from above were executed in Windows PowerShell, that's why the syntax.
+
 ![Kubernetes Services](Services.PNG)
